@@ -36,80 +36,79 @@
 24-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:11:9-50
 25        android:supportsRtl="true"
 25-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:12:9-35
-26        android:testOnly="true"
-27        android:theme="@style/AppTheme" >
-27-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:13:9-40
-28        <activity
-28-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:14:9-17:20
-29            android:name="com.example.news.Details"
-29-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:14:19-42
-30            android:configChanges="keyboardHidden|orientation|keyboard|screenLayout|screenSize"
-30-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:15:13-96
-31            android:label="@string/app_name" >
-31-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:16:13-45
-32        </activity>
-33        <activity
-33-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:18:9-26:20
-34            android:name="com.example.news.MainActivity"
-34-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:18:19-47
-35            android:configChanges="keyboardHidden|orientation|keyboard|screenLayout|screenSize"
-35-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:19:13-96
-36            android:label="@string/app_name" >
-36-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:20:13-45
-37            <intent-filter>
-37-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:21:13-25:29
-38                <action android:name="android.intent.action.MAIN" />
-38-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:22:17-69
-38-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:22:25-66
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:24:17-77
-40-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:24:27-74
-41            </intent-filter>
-42        </activity>
-43
-44        <service
-44-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\009de8b8892230abdcb7834b9a3a2457\jetified-firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
-45            android:name="com.google.firebase.components.ComponentDiscoveryService"
-45-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\009de8b8892230abdcb7834b9a3a2457\jetified-firebase-database-19.2.1\AndroidManifest.xml:30:13-84
-46            android:directBootAware="true"
-46-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\808dcfd3972c389f6bf87665707819cc\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
-47            android:exported="false" >
-47-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\009de8b8892230abdcb7834b9a3a2457\jetified-firebase-database-19.2.1\AndroidManifest.xml:31:13-37
-48            <meta-data
-48-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\009de8b8892230abdcb7834b9a3a2457\jetified-firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
-49                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-49-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\009de8b8892230abdcb7834b9a3a2457\jetified-firebase-database-19.2.1\AndroidManifest.xml:33:17-109
-50                android:value="com.google.firebase.components.ComponentRegistrar" />
-50-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\009de8b8892230abdcb7834b9a3a2457\jetified-firebase-database-19.2.1\AndroidManifest.xml:34:17-82
-51        </service>
-52
-53        <activity
-53-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\90313ba66b87b61c38214f0d48a2ba22\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-54            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-54-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\90313ba66b87b61c38214f0d48a2ba22\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-55            android:exported="false"
-55-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\90313ba66b87b61c38214f0d48a2ba22\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-56            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-56-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\90313ba66b87b61c38214f0d48a2ba22\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-57
-58        <provider
-58-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\808dcfd3972c389f6bf87665707819cc\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
-59            android:name="com.google.firebase.provider.FirebaseInitProvider"
-59-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\808dcfd3972c389f6bf87665707819cc\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
-60            android:authorities="com.example.news.firebaseinitprovider"
-60-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\808dcfd3972c389f6bf87665707819cc\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
-61            android:exported="false"
-61-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\808dcfd3972c389f6bf87665707819cc\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
-62            android:initOrder="100" />
-62-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\808dcfd3972c389f6bf87665707819cc\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
-63
-64        <meta-data
-64-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\e2f3931a74b13a0da0ca4f47c74803da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-65            android:name="com.google.android.gms.version"
-65-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\e2f3931a74b13a0da0ca4f47c74803da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-66            android:value="@integer/google_play_services_version" />
-66-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\e2f3931a74b13a0da0ca4f47c74803da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-67    </application>
-68
-69</manifest>
+26        android:theme="@style/AppTheme" >
+26-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:13:9-40
+27        <activity
+27-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:14:9-17:20
+28            android:name="com.example.news.Details"
+28-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:14:19-42
+29            android:configChanges="keyboardHidden|orientation|keyboard|screenLayout|screenSize"
+29-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:15:13-96
+30            android:label="@string/app_name" >
+30-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:16:13-45
+31        </activity>
+32        <activity
+32-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:18:9-26:20
+33            android:name="com.example.news.MainActivity"
+33-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:18:19-47
+34            android:configChanges="keyboardHidden|orientation|keyboard|screenLayout|screenSize"
+34-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:19:13-96
+35            android:label="@string/app_name" >
+35-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:20:13-45
+36            <intent-filter>
+36-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:21:13-25:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:22:17-69
+37-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:22:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:24:17-77
+39-->C:\Users\Hong Yu\Documents\Year 2 Sem 5 Aug 2020\News\app\src\main\AndroidManifest.xml:24:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <service
+43-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\009de8b8892230abdcb7834b9a3a2457\jetified-firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
+44            android:name="com.google.firebase.components.ComponentDiscoveryService"
+44-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\009de8b8892230abdcb7834b9a3a2457\jetified-firebase-database-19.2.1\AndroidManifest.xml:30:13-84
+45            android:directBootAware="true"
+45-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\808dcfd3972c389f6bf87665707819cc\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+46            android:exported="false" >
+46-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\009de8b8892230abdcb7834b9a3a2457\jetified-firebase-database-19.2.1\AndroidManifest.xml:31:13-37
+47            <meta-data
+47-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\009de8b8892230abdcb7834b9a3a2457\jetified-firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+48                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+48-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\009de8b8892230abdcb7834b9a3a2457\jetified-firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\009de8b8892230abdcb7834b9a3a2457\jetified-firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+50        </service>
+51
+52        <activity
+52-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\90313ba66b87b61c38214f0d48a2ba22\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+53            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+53-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\90313ba66b87b61c38214f0d48a2ba22\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+54            android:exported="false"
+54-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\90313ba66b87b61c38214f0d48a2ba22\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+55            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+55-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\90313ba66b87b61c38214f0d48a2ba22\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+56
+57        <provider
+57-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\808dcfd3972c389f6bf87665707819cc\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+58            android:name="com.google.firebase.provider.FirebaseInitProvider"
+58-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\808dcfd3972c389f6bf87665707819cc\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+59            android:authorities="com.example.news.firebaseinitprovider"
+59-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\808dcfd3972c389f6bf87665707819cc\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+60            android:exported="false"
+60-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\808dcfd3972c389f6bf87665707819cc\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+61            android:initOrder="100" />
+61-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\808dcfd3972c389f6bf87665707819cc\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+62
+63        <meta-data
+63-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\e2f3931a74b13a0da0ca4f47c74803da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+64            android:name="com.google.android.gms.version"
+64-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\e2f3931a74b13a0da0ca4f47c74803da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+65            android:value="@integer/google_play_services_version" />
+65-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Hong Yu\.gradle\caches\transforms-2\files-2.1\e2f3931a74b13a0da0ca4f47c74803da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+66    </application>
+67
+68</manifest>

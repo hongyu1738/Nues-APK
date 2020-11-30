@@ -14,6 +14,10 @@ com/example/news/BuildConfig.java
  com.example.news.BuildConfig
 com/example/news/Details.java
  com.example.news.Details
+com/example/news/Adapter.java
+ com.example.news.Adapter
+ com.example.news.Adapter$1
+ com.example.news.Adapter$Viewholder
 com/example/news/MainActivity.java
  com.example.news.MainActivity
  com.example.news.MainActivity$1
@@ -27,7 +31,3 @@ com/example/news/MainActivity.java
  com.example.news.MainActivity$7$2
  com.example.news.MainActivity$8
  com.example.news.MainActivity$9
-com/example/news/Adapter.java
- com.example.news.Adapter
- com.example.news.Adapter$1
- com.example.news.Adapter$Viewholder
